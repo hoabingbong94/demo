@@ -1,0 +1,293 @@
+.image-90phut-star{
+    width: 120px;
+    height:80px;
+    float:left;
+}
+.score-broat-cast{
+    color:#cc0000;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.edit-menu .panel{
+    margin-top: 0px !important;
+    border-radius: 0px !important;
+    border-bottom: none !important;
+}
+.edit-menu .panel:first-child{
+    border-radius: 3px 3px 0px 0px !important;
+}
+.edit-menu .panel:last-child{
+    border-radius: 0px 0px 3px 3px !important;
+}
+.edit-menu .panel-heading{
+    background: #FFF !important;
+    padding: 0px 0px !important;
+    height:42px;
+}
+.edit-menu .panel-heading a{
+    color:#555;
+    width: 100%;
+    height: 42px;
+    float: left;
+    line-height: 42px;
+    padding-left: 15px;
+}
+.edit-menu .panel-heading a i{
+    padding: 13px 10px;
+}
+.edit-menu .panel-heading a i.icon{
+    padding: 0px 0px !important;
+}
+.edit-menu .panel-heading a[aria-expanded='true']{
+    background: #337AB7;
+    color:#FFF;
+}
+.edit-menu .panel-heading a:hover{
+    text-decoration:none;
+}
+.edit-menu .panel:last-child{
+    border-bottom: #ddd solid 1px;
+}
+.edit-menu .panel-title{
+    font-size: 14px !important;
+}
+.edit-menu .panel-body{
+    padding: 0px;
+}
+.edit-menu .panel-body ul{
+    list-style: none;
+    padding: 0px;
+}
+.edit-menu .panel-body ul li{
+    width: 100%;
+    height: 42px;
+    float: left;
+    line-height: 42px;
+    padding-left: 15px;
+    border-bottom: #ddd solid 1px;
+}
+.edit-menu .panel-body ul li:hover,.edit-menu .panel-body ul li.active{
+    background: #ddd;
+}
+.edit-menu .panel-body ul li a{
+    color:#555;
+}
+.edit-menu .panel-body ul li a:hover{
+    text-decoration: none;
+}
+
+
+
+/*NhamTv*/
+.img90phut{
+    width: 65px !important;
+}
+.module-90phut .poster-video-90phut,.module-90phut .videoFile-video-90phut{
+    height:175px;
+}
+
+
+/*kienht: nhan dinh tran dau*/
+.tip-imgPreview{
+    width: 210px !important;  height: 130px !important;
+}
+
+.tip-button{
+    margin: 5px;
+    float: right;
+}
+.tip-avatar{
+    padding-right: 10px;
+    position: relative;
+}
+.tip-images{
+    width: 200px;
+    height: 132px;
+    color: #FFF;
+    background: #CCC;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+/*style tin tuc*/
+table a.title {
+    font-size: 16px;
+    margin-bottom: 2px;
+    color: #167ac6;
+    display: block;
+
+}
+
+table .color-category{
+    font-size: 13px;
+}
+
+table a.title-category {
+    color: #167ac6;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+table label.description {
+    display: block;
+    font-size: 15px;
+    color: #666;
+    font-weight: normal;
+}
+
+table label.cate-name {
+    display: block;
+}
+
+table .image-intro {
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+table .image-intro img {
+    width: 90px;
+}
+
+table .content-right-info {
+    display: block;
+    float: left;
+    width: 608px;
+}
+
+table .content-publish-info {
+    float: left;
+    text-align: right;
+    width: 70px;
+    margin-top: 15px;
+}
+
+table .date-time {
+    display: block;
+    font-size: 12px;
+    color: #767676;
+    margin-left: 0px;
+    float: left;
+}
+
+table .author {
+    display: block;
+    font-size: 12px;
+    color: #767676;
+    float: left;
+    margin-left: 7px;
+}
+
+table .blue-type {
+    border: 1px solid #5cb85c;
+    color: #5cb85c;
+    font-weight: normal;
+    padding: 2px;
+    font-size: 12px;
+}
+
+table .primary-type {
+    border: 1px solid #0275d8;
+    color: #0275d8;
+    font-weight: normal;
+    padding: 2px;
+    font-size: 12px;
+}
+
+table .red-type {
+    border: 1px solid #d9534f;
+    color: #d9534f;
+    font-weight: normal;
+    padding: 2px;
+    font-size: 12px;
+}
+.content-publish-info .btn-group{
+    margin-bottom: 10px;
+    clear: both;
+}
+
+.table-news tbody>tr>td {
+    border-bottom: 1px solid #ddd;
+    border-top: 0px !important;
+}
+.news-form label{font-weight: normal}
+/*search video them vao bai viet*/
+#video-searchStar,
+#video-search{
+    float: left;
+    margin-right: 10px;
+    position: relative;
+}
+#video-search-textStar,
+#video-search-text {
+    width: 215px;
+}
+#video-search-detailStar,
+#video-search-detail {
+    position: absolute;
+    width: 400px;
+    background: #eee;
+    top: 30px;
+    right:8px;
+    z-index: 1;
+    display: none;
+    padding: 10px;
+}
+
+.video-item:hover {
+    background: #fff;
+}
+
+.video-item p {
+    width: 300px;
+    float: left;
+}
+.postAdv #video-search-detailStar img,
+.postAdv #video-search-detail img{
+    width: 70px !important;
+    height:50px !important;
+    float: left;
+    margin-right: 5px;
+}
+
+.dropdownCategories{
+    max-width:200px;
+}
+
+/*video*/
+.bt-selected{
+    background:#eee;
+}
+
+/*search team thêm trận*/
+#team {
+    position: relative;
+}
+#team-search-detailStar,
+#team-search-detail {
+    position: absolute;
+    width: 500px;
+    background: #ffffff;
+    top: 55px;
+    z-index: 1;
+    display: none;
+    padding: 10px;
+}
+
+.button-team {
+    padding: 5px;
+    float: left;
+    margin-left: 10px;
+    color: #fff;
+    border-radius: 5px;
+    background: #6c6c6c;
+}
+
+.button-team:hover {
+    background: #52bb5d
+}
+
+.frm-video-box{padding-left: 20px}

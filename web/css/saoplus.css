@@ -1,0 +1,42 @@
+
+/* 
+    Created on : Sep 16, 2016, 9:05:36 AM
+    Author     : Bọ Chét
+*/
+
+.drop-categoriesID{
+    height: 34px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 130px;
+}
+.img-categories-logo {
+    width: 20px;
+    height: 22px;
+    margin-right: 2px;
+    margin-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.title-categories{
+    margin-left: 10px;
+    text-transform:  uppercase !important;
+}
+.css-treeview a.title-category{
+    color: #167ac6;
+    font-size: 12px !important;
+    font-weight: bold;
+    padding-right: 5px;
+}
+.fix-width{
+    height: 100px;
+}
+.list-item{
+    height: 20px !important;
+}
+.video-saoplus{
+    /* box-sizing: border-box; */
+    height: 180px;
+    width: 290px;
+    padding: 0;
+}
